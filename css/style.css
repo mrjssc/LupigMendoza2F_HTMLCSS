@@ -1,0 +1,189 @@
+/*External CSS - Adaptive Design*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+	background-color: black;
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+}
+div.wrapper{
+	background-color: black;
+	width: 1000px;
+	margin: 0 auto;
+	padding: 20px;
+}
+.banner, .banner img{
+	margin: 0 auto;
+	width: 100%;
+	height: 700px;
+	border-radius: 5%;
+	padding-bottom: 20px;
+}
+.nav{
+	display: flex;
+}
+.nav ul{
+	margin: 0;
+	padding: 10px 0;
+}
+.nav ul li{
+	list-style-type: none;
+	display: inline-block;
+}
+.nav ul li a{
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-right: 10px;
+	padding: 10px;
+}
+.nav ul li.name{
+	text-decoration: none;
+	color: white;
+	font-size: 40px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-style: italic;
+	margin-right: 190px;
+	padding: 10px;
+}
+.nav ul li a:hover{
+	background-color: #FF9F9C;
+	color: white;
+}
+.main{
+	min-height: 500px;
+}
+.left-side-bar{
+	width: 190px;
+	float: left;
+	min-height: 100px;
+	margin: 10px 10px 10px 0px;
+}
+.left-side-bar h2{
+	margin: 0px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	text-align: left;
+	text-transform: uppercase;
+	color: white;
+	font-weight: bold;
+	font-size: 40px;
+}
+.left-side-bar ul{
+	list-style-type: none;
+	margin: 0px;
+	padding-left: 10px;
+}
+.left-side-bar ul li a{
+	display: flex; 
+    align-items: center; 
+    text-decoration: none;
+    color: white;
+    padding: 5px 0; 
+}
+.left-side-bar ul li a img {
+    max-width: 35px; 
+    max-height: 35px; 
+    padding-right: 10px;
+}
+.content{
+	width: 550px;
+	float: left;
+	margin: 0px;
+}
+.content h1{
+	padding-top: 10px;
+	margin: 0px;
+	color: white;
+	font-size: 40px;
+	border-bottom: 2px solid white;
+	color: white;
+}
+.content h2{
+	color: white;
+	font-size: 25px;
+	text-indent: 20px;
+}
+.content p{
+	padding-top: 5px;
+	text-align: justify;
+	line-height: 1.5;
+	text-indent: 35px;
+	color: white;
+}
+.mprof{
+	width: 550px;
+	float: left;
+	margin: 0px;
+}
+.mprof h1{
+	padding-top: 10px;
+	margin: 0px;
+	color: black;
+	font-size: 40px;
+	color: white;
+	font-style: italic;
+}
+.mprof h2{
+	color: white;
+	font-size: 30px;
+	text-transform: uppercase;
+	margin-bottom: 0;
+	text-align: center;
+}
+.profile, .profile img{
+	width: 550px;
+	height: 400px;
+	align: center;
+}
+table, th, td {
+  border: none;
+  border-collapse: collapse;
+  table-layout: center;
+  padding: 8px;
+  margin: auto;
+}
+th{
+ 	text-align: left;
+ 	color: white;
+	text-transform: capitalize;
+	font-weight: 800;
+	font-size: 18px;
+}
+td{
+	text-align: left;
+	color: white;
+	text-transform: capitalize;
+	font-weight: thin;
+	font-size: 18px;
+}
+
+.right-side-bar{
+	width: 210px;
+	min-height: 50px;
+	float: right;
+	margin: 10px 0px 0px 0px;
+}
+.right-side-bar ul{
+	padding: 20px;
+	margin: 0px;
+}
+.right-side-bar ul li{
+	list-style-type: none;
+}
+.right-side-bar ul li img{
+	width: 100%;
+}
+.footer{
+	color: white;
+	clear: both;
+	border-top: 1px solid white;
+	padding: 20px;
+	text-align: center;
+	font-size: 15px;
+}
